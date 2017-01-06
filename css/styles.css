@@ -1,0 +1,110 @@
+/* =================================
+  Box sizing
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* =================================
+  Fonts
+==================================== */
+
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* =================================
+  LINKS
+==================================== */
+
+a {
+  text-decoration: none; /* remove underline from links */
+}
+
+/* =================================
+  Navigation
+==================================== */
+
+header {
+  max-width: 940px;
+  width: 100%; /* will try to take up the full width */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+header nav li {
+  margin-left: 20px;
+}
+
+header h1 a {
+  color: #4A4A4A;
+}
+
+header nav a {
+  color: #f5b723;
+}
+
+/* =================================
+  Banner
+==================================== */
+
+.banner {
+  background-color: #D32F2F;
+  padding: 40px 0 20px;
+  text-align: center;
+  color: white;
+}
+
+/* =================================
+  Valley gallery
+==================================== */
+
+.valley-gallery {
+  flex: 1; /* needed for sticky footer */
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 940px;
+  margin: 20px auto;
+}
+
+.valley-card {
+  background-color: #ECECEC;
+  width: calc(100%/3 - 40px);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.valley-img {
+  height: 150px;
+  overflow: hidden;
+}
+
+.valley-button {
+  display: inline-block; 
+  background-color: #D32F2F;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* =================================
+  Footer
+==================================== */
+
+footer {
+  background-color: #e2e2e2;
+  padding: 20px;
+  text-align: center;
+}
